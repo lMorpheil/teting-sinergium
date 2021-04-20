@@ -1,0 +1,61 @@
+
+.size__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  & hr {
+    height: 1px;
+    border: none;
+    background: #ebebeb;
+    flex-grow: 2;
+  }
+}
+.size__title {
+  font-family: DINRoundPro, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #acabab;
+  padding-right: 10px;
+  line-height: 14px;
+}
+.size__panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #ebebeb;
+}
+.size__button {
+  font-family: DINRoundPro, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  width: 25px;
+  height: 25px;
+  border: 1px solid #ebebeb;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background: white;
+  cursor: pointer;
+  outline: none;
+}
+.size__button_active {
+  background: #ec9e21;
+  color: white;
+}
+.size__button_disabled {
+  border: none;
+  text-decoration: line-through;
+  color: #acabab;
+  cursor: auto;
+}
+.size__button_resize {
+  border: none;
+  width: 190px;
+  height: 40px;
+  padding-left: 60px;
+  text-align: left;
+  background: url("/src/assets/images/resize.svg") 10px center/35px 30px no-repeat;
+}

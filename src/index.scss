@@ -1,0 +1,9 @@
+@import "./components/util/font.scss";
+@import './components/product-card/product-card.scss';
+
+.show-background {
+  background: #f7f7f7;
+  & .card {
+    margin: 0 auto;
+  }
+}

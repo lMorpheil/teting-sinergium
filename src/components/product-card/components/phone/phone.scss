@@ -1,0 +1,37 @@
+.phone {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.phone__title {
+  font-family: DINRoundPro, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #acabab;
+  line-height: 26px;
+  width: 125px;
+}
+.phone__form {
+  display: flex;
+  flex-direction: column;
+  height: 45px;
+}
+.phone__link {
+  font-family: DINRoundPro, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  line-height: 30px;
+}
+.phone__button {
+  font-family: DINRoundPro, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  background: url(/src/assets/images/phone.png) left center no-repeat;
+  outline: none;
+  width: 210px;
+  color: #ec9e21;
+  line-height: 30px;
+}

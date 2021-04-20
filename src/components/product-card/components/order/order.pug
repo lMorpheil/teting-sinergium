@@ -1,0 +1,7 @@
+mixin order
+  .order
+    h2.order__title Быстрый заказ
+    p.order__description Вы можете на заполнять никаких форм, просто оставьте свой телефон и наш менеджер свяжется с вами
+    form.order__form(action="")
+      input.order__input(type="tel" placeholder="+7 (___) ___-__-__" require)
+      button.order__button Заказать в один клик

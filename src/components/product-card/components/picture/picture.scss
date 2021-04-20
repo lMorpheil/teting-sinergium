@@ -1,0 +1,38 @@
+.picture {
+  position: relative;
+}
+.picture__img {
+  width: 395px;
+  height: 540px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border: 1px solid #e7e7e7;
+
+}
+.picture__button-block {
+  position: absolute;
+  bottom: 180px;
+  left: 365px;
+  display: flex;
+  flex-direction: column;
+  z-index: 999;
+}
+.picture__button {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background: url(/src/assets/images/monkey-kigurumi.jpg) center center/contain no-repeat;
+  margin-bottom: 10px;
+  border: 5px solid transparent;
+  outline: none;
+}
+.picture__button_active {
+  border: 5px solid #f0b328;
+}

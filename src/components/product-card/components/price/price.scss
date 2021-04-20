@@ -1,0 +1,44 @@
+.price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 240px;
+  height: 80px;
+}
+.price__total {
+  color: #acabab;
+  font-family: DINRoundPro, sans-serif;
+  font-size: 18px;
+  text-decoration: line-through;
+  font-weight: bold;
+}
+.price__current {
+  font-family: DINRoundPro, sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 45px;
+}
+.price__save {
+  font-family: DINRoundPro, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  & span {
+    color: #f71741;
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
+.price__discont {
+  background: url("/src/assets/images/discount.svg") center center no-repeat;
+  background-size: cover;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+}
+.price__percent {
+  font-family: DINRoundPro, sans-serif;
+  font-size: 22px;
+  font-weight: 900;
+  line-height: 80px;
+  color: white;
+}

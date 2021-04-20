@@ -1,0 +1,53 @@
+.transfer__title {
+  font-family: DINRoundPro, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #acabab;
+  padding-bottom: 25px;
+  & span {
+    color: black;
+    border-bottom: 2px dotted black;
+  }
+}
+.transfer__table {
+  font-family: DINRoundPro, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #acabab;
+  width: 400px;
+  height: 80px;
+}
+.transfer__cell {
+  height: 40px;
+  border-bottom: 2px dotted #acabab;
+  text-align: left;
+  &:first-child {
+    width: 180px;
+  }
+  &:last-child {
+    text-align: right;
+  }
+}
+.transfer__row:last-child .transfer__cell {
+  border: none;
+}
+.transfer__link {
+  text-decoration: none;
+  & span {
+    color: black;
+    border-bottom: 2px dotted black;
+    width: 145px;
+  }
+  &::after {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    background: url(/src/assets/images/arrow.png) right center no-repeat;
+  }
+  
+}
+.transfer__price {
+  color: black;
+}
