@@ -16,7 +16,7 @@ function sendServer(e) {
   data.append('size', size);
   data.append('count', count);
 
-  fetch('https://my-json-server.typicode.com/lMorpheil/serv/posts',
+  fetch('https://my-json-server.typicode.com/lMorpheil/serv',
     {
       method: 'POST',
       body: data,
