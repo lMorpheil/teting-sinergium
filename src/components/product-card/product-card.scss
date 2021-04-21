@@ -25,10 +25,29 @@
   background: white;
   padding: 30px 75px 90px 35px;
   position: relative;
+  @media (max-width: 1140px) {
+    padding: 30px 15px 90px 15px;
+  }
 }
 .card__block {
   display: flex;
   justify-content: space-between;
+  @media (max-width: 1140px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.card__dashboard {
+  width: 600px;
+  @media (max-width: 1140px) {
+    padding-top: 20px;
+    border-top: 1px dashed #e7e7e7;
+    width: auto;
+    max-width: 600px;
+    @media (max-width: 520px) {
+      width: 270px;
+    }
+  }
 }
 .card__wrapper {
   display: flex;
@@ -37,6 +56,11 @@
 }
 .card__wrapp {
   padding: 0 0 45px 0;
+  &:nth-child(4) {
+    @media (max-width: 1140px) {
+      border-bottom: 1px dashed #e7e7e7;
+    }
+  }
 }
 .card__rule {
   padding-top: 50px;

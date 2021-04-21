@@ -10,6 +10,9 @@
   color: #acabab;
   line-height: 26px;
   width: 125px;
+  @media (max-width: 520px) {
+    font-size: 14px;
+  }
 }
 .phone__form {
   display: flex;
@@ -23,15 +26,26 @@
   text-decoration: none;
   color: black;
   line-height: 30px;
+  @media (max-width: 520px) {
+    font-size: 20px;
+  }
 }
 .phone__button {
   font-family: DINRoundPro, sans-serif;
   font-size: 14px;
   font-weight: 500;
   border: none;
-  background: url(/src/assets/images/phone.png) left center no-repeat;
+  background: url(../images/phone.png) left center no-repeat;
   outline: none;
   width: 210px;
+  text-align: left;
   color: #ec9e21;
   line-height: 30px;
+  padding-left: 20px;
+  @media (max-width: 520px) {
+    font-size: 12px;
+    width: 120px;
+    line-height: normal;
+    background-position: 2px 3px;
+  }
 }

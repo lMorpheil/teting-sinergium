@@ -20,7 +20,7 @@ const modalWindowButton = document.querySelector('.modal__button');
 function showModal() {
   modalWindow.classList.add('modal_active');
   document.body.style.overflow = 'hidden';
-  document.body.style.paddingRight = '15px';
+  document.body.style.paddingRight = '13.5px';
 }
 function hiddenModal() {
   modalWindow.classList.remove('modal_active');

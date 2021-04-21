@@ -1,6 +1,6 @@
 .modal {
-  height: 510px;
-  width: 790px;
+  width: 70%;
+  height: 60%;
   padding: 40px 60px 40px 100px;
   background: grey;
   border-radius: 20px;
@@ -21,12 +21,10 @@
 }
 .modal_active {
   display: block;
-  filter: blur(50%);
-  -webkit-filter: blur(50%);
 }
 .modal__button {
-  width: 150px;
-  height: 60px;
+  width: 60px;
+  height: 30px;
   border: 1px solid black;
   border-radius: 10px;
   -webkit-border-radius: 10px;

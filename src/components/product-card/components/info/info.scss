@@ -25,13 +25,23 @@
   -o-border-radius: 5px;
   cursor: pointer;
 }
+.info__wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.info__fit {
+  width: 19px;
+  height: 19px;
+  fill: #7ac00c;
+}
 .info__volume {
   font-family: DINRoundPro, sans-serif;
   font-size: 12px;
   font-weight: 500;
   color: #acabab;
-  padding: 12px 0 12px 0;
-  background: url("/src/assets/images/background-info.png") 135px center no-repeat;
+  display: inline-block;
+  padding: 12px 0 12px 8px;
 }
 .info__event {
     font-family: DINRoundPro, sans-serif;

@@ -3,7 +3,10 @@ mixin info
     .info__code
       label.info__label Код товара:
       input.info__input(type="text" readonly value="15112")
-    p.info__volume На складе много
+    .info__wrapper
+      svg.info__fit
+        use(xlink:href="./images/fit.svg#fit")
+      p.info__volume На складе много
     p.info__event
       | Нашли дешевле? 
       span Снизим цену!

@@ -10,6 +10,13 @@
   -moz-border-radius: 25px;
   -ms-border-radius: 25px;
   -o-border-radius: 25px;
+  @media (max-width: 520px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: none;
+    height: 100px;
+  }
 }
 .order__title {
   font-family: DINRoundPro, sans-serif;
@@ -23,6 +30,9 @@
   color: #acabab;
   width: 450px;
   padding: 20px 0;
+  @media (max-width: 520px) {
+    width: 270px;
+  }
 }
 .order__input {
   font-family: DINRoundPro, sans-serif;
@@ -30,6 +40,16 @@
   font-weight: bold;
   border: none;
   outline: none;
+  @media (max-width: 520px) {
+    border: 1px solid #cfcfcf;
+    border-radius: 20px;
+    height: 40px;
+    width: 270px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
 }
 .order__button {
   font-family: DINRoundPro, sans-serif;
@@ -47,4 +67,8 @@
   -o-border-radius: 25px;
   outline: none;
   cursor: pointer;
+  @media (max-width: 520px) {
+    width: 270px;
+    height: 40px;
+  }
 }

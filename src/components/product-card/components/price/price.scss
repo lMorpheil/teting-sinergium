@@ -4,6 +4,9 @@
   align-items: center;
   width: 240px;
   height: 80px;
+  @media (max-width: 520px) {
+    position: relative;
+  }
 }
 .price__total {
   color: #acabab;
@@ -11,29 +14,49 @@
   font-size: 18px;
   text-decoration: line-through;
   font-weight: bold;
+  @media (max-width: 520px) {
+    font-size: 14px;
+  }
 }
 .price__current {
   font-family: DINRoundPro, sans-serif;
   font-size: 40px;
   font-weight: 900;
   line-height: 45px;
+  @media (max-width: 520px) {
+    font-size: 26px;
+  }
 }
 .price__save {
   font-family: DINRoundPro, sans-serif;
   font-size: 14px;
   font-weight: 500;
+  @media (max-width: 520px) {
+    font-size: 12px;
+    width: 55px;
+  }
   & span {
     color: #f71741;
     font-size: 18px;
     font-weight: bold;
+    @media (max-width: 520px) {
+      font-size: 16px;
+    }
   }
 }
 .price__discont {
-  background: url("/src/assets/images/discount.svg") center center no-repeat;
+  background: url(../images/discount.svg) center center no-repeat;
   background-size: cover;
   width: 80px;
   height: 80px;
   text-align: center;
+  @media (max-width: 520px) {
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    left: 59px;
+    top: 45px;
+  }
 }
 .price__percent {
   font-family: DINRoundPro, sans-serif;
@@ -41,4 +64,8 @@
   font-weight: 900;
   line-height: 80px;
   color: white;
+  @media (max-width: 520px) {
+    font-size: 16px;
+    line-height: 60px;
+  }
 }

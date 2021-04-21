@@ -16,6 +16,9 @@
   color: #acabab;
   width: 400px;
   height: 80px;
+  @media (max-width: 520px) {
+    width: 270px;
+  }
 }
 .transfer__cell {
   height: 40px;
@@ -23,6 +26,9 @@
   text-align: left;
   &:first-child {
     width: 180px;
+    @media (max-width: 520px) {
+      width: auto;
+    }
   }
   &:last-child {
     text-align: right;
@@ -44,7 +50,7 @@
     width: 15px;
     height: 15px;
     vertical-align: middle;
-    background: url(/src/assets/images/arrow.png) right center no-repeat;
+    background: url(../images/arrow.png) right center no-repeat;
   }
   
 }
