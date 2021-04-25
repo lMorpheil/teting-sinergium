@@ -1,7 +1,7 @@
 
 
 // window.addEventListener('DOMContentLoaded', () => {
-const basket = document.querySelector('.bag__button');
+const basket = document.querySelector('.bag__basket');
 basket.addEventListener('click', sendServer);
 function sendServer(e) {
   e.preventDefault();
